@@ -1,0 +1,7 @@
+cat $HOME/.config/crystal.txt
+echo 42
+(export TESTVAR=42; echo "${TESTVAR/#[0-9]}")
+(export TESTVAR=42; echo "${TESTVAR}" | sed 's/[0-9]//')
+(export TESTVAR=/hello/directory; echo "/${TESTVAR##*/}")
+# backslashes inside a text file need to be doubled to avoid early escaping...
+(export TESTVAR=/hello/directory; echo "$TESTVAR" | sed 's/\\/[^\/]*//')

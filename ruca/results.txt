@@ -1,0 +1,305 @@
+Generating expressions...
+Beginning benchmark.
+
+
+expression is "39 - 34 + 5 "
+zsh:  10
+Runs: 1000 -- Avg. time in ms: 3.223649, Avg. CPU usage: 52.238%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.9383489003774e-1
+zcalc:10
+Runs: 1000 -- Avg. time in ms: 14.205693, Avg. CPU usage: 89.315%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.8815779029898e-2
+bash: 10
+Runs: 1000 -- Avg. time in ms: 0.289, Avg. CPU usage: 90.90351000000018%
+Average time as measured by date (excluding overhead): 8.176387548446655ms
+Total time: 83.02219986915588s -- Avg. loop time: 83.02219986915588ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 3.80646205240780
+CPU score as measured by `date`: 1.3454199995141e+2
+sh:   10
+Runs: 1000 -- Avg. time in ms: 5.03, Avg. CPU usage: 85.007%
+Total time: 65.78949999809265s -- Avg. loop time: 65.78949999809265ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.3387151300205e-1
+perl: 10
+Runs: 1000 -- Avg. time in ms: 23.456744999999998, Avg. CPU usage: 86.185%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 4.9465290894264e-2
+ruca: 10
+Runs: 1000 -- Avg. time in ms: 18.722789000000002, Avg. CPU usage: 85.033%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.2811903615807e-2
+bc:   10
+Runs: 1000 -- Avg. time in ms: 22.468951, Avg. CPU usage: 84.593%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.2611753400365e-2
+lc:   10
+Runs: 1000 -- Avg. time in ms: 40.683286, Avg. CPU usage: 93.426%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.630971969786e-2
+
+expression is "54 + 63 + 95 + 27 + 1 "
+zsh:  240
+Runs: 1000 -- Avg. time in ms: 3.513888, Avg. CPU usage: 52.075%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.4649073879414e-1
+zcalc:240
+Runs: 1000 -- Avg. time in ms: 14.256896000000001, Avg. CPU usage: 87.097%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 8.0532618844627e-2
+bash: 240
+Runs: 1000 -- Avg. time in ms: 0.253, Avg. CPU usage: 91.40523000000007%
+Average time as measured by date (excluding overhead): 8.523941278457642ms
+Total time: 85.43879985809326s -- Avg. loop time: 85.43879985809326ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 4.32422649115420
+CPU score as measured by `date`: 1.2834782250635e+2
+sh:   240
+Runs: 1000 -- Avg. time in ms: 8.14, Avg. CPU usage: 80.854%
+Total time: 78.38280010223389s -- Avg. loop time: 78.38280010223389ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 1.5194068673179e-1
+perl: 240
+Runs: 1000 -- Avg. time in ms: 23.445927, Avg. CPU usage: 85.504%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 4.9882264332893e-2
+ruca: 240
+Runs: 1000 -- Avg. time in ms: 18.521739, Avg. CPU usage: 84.566%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.3844347265868e-2
+bc:   240
+Runs: 1000 -- Avg. time in ms: 22.377191, Avg. CPU usage: 85.424%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.2313590403075e-2
+lc:   240
+Runs: 1000 -- Avg. time in ms: 40.610793, Avg. CPU usage: 95.476%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.5790770342211e-2
+
+expression is "38 - 8 + 51 - 50 + 1 "
+zsh:  32
+Runs: 1000 -- Avg. time in ms: 3.1147240000000003, Avg. CPU usage: 50.676%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.335459270487e-1
+zcalc:32
+Runs: 1000 -- Avg. time in ms: 14.403343999999999, Avg. CPU usage: 88.562%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.8395160052062e-2
+bash: 32
+Runs: 1000 -- Avg. time in ms: 0.269, Avg. CPU usage: 90.93350000000015%
+Average time as measured by date (excluding overhead): 5.9678733348846436ms
+Total time: 90.56920003890991s -- Avg. loop time: 90.56920003890991ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 4.08812167018660
+CPU score as measured by `date`: 1.8427078920257e+2
+sh:   32
+Runs: 1000 -- Avg. time in ms: 7.54, Avg. CPU usage: 81.757%
+Total time: 75.45150017738342s -- Avg. loop time: 75.45150017738342ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 1.622197422789e-1
+perl: 32
+Runs: 1000 -- Avg. time in ms: 20.528151, Avg. CPU usage: 90.515%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.3818254817415e-2
+ruca: 32
+Runs: 1000 -- Avg. time in ms: 17.276491, Avg. CPU usage: 85.445%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.774196773037e-2
+bc:   32
+Runs: 1000 -- Avg. time in ms: 22.306012, Avg. CPU usage: 84.352%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.3147480866537e-2
+lc:   32
+Runs: 1000 -- Avg. time in ms: 43.28967, Avg. CPU usage: 93.246%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.4773394239986e-2
+
+expression is "26 + 91 + 1 "
+zsh:  118
+Runs: 1000 -- Avg. time in ms: 3.474739, Avg. CPU usage: 51.631%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.5740039817989e-1
+zcalc:118
+Runs: 1000 -- Avg. time in ms: 16.119408, Avg. CPU usage: 86.543%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.168346109637e-2
+bash: 118
+Runs: 1000 -- Avg. time in ms: 0.262, Avg. CPU usage: 91.53681000000002%
+Average time as measured by date (excluding overhead): 7.570544004440308ms
+Total time: 86.42989993095398s -- Avg. loop time: 86.42989993095398ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 4.16968200348010
+CPU score as measured by `date`: 1.4430359090061e+2
+sh:   118
+Runs: 1000 -- Avg. time in ms: 4.31, Avg. CPU usage: 85.214%
+Total time: 62.498300075531006s -- Avg. loop time: 62.498300075531006ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.7227751482728e-1
+perl: 118
+Runs: 1000 -- Avg. time in ms: 22.663653, Avg. CPU usage: 86.107%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.1242655695238e-2
+ruca: 118
+Runs: 1000 -- Avg. time in ms: 18.422323, Avg. CPU usage: 85.193%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.3716468308327e-2
+bc:   118
+Runs: 1000 -- Avg. time in ms: 21.777853999999998, Avg. CPU usage: 86.215%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.3260113243885e-2
+lc:   118
+Runs: 1000 -- Avg. time in ms: 39.21928, Avg. CPU usage: 97.818%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.6066432961343e-2
+
+expression is "16 * 7 + 14 - 17 * 19 * 4 "
+zsh:  -1166
+Runs: 1000 -- Avg. time in ms: 2.978683, Avg. CPU usage: 50.034%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.7098141164117e-1
+zcalc:-1166
+Runs: 1000 -- Avg. time in ms: 14.921715, Avg. CPU usage: 89.208%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.5123784179425e-2
+bash: -1166
+Runs: 1000 -- Avg. time in ms: 0.369, Avg. CPU usage: 93.45963000000008%
+Average time as measured by date (excluding overhead): 7.6337363719940186ms
+Total time: 86.19229984283447s -- Avg. loop time: 86.19229984283447ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.89967668422290
+CPU score as measured by `date`: 1.401647429696e+2
+sh:   -1166
+Runs: 1000 -- Avg. time in ms: 7.08, Avg. CPU usage: 86.335%
+Total time: 72.69539999961853s -- Avg. loop time: 72.69539999961853ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 1.6359870024105e-1
+perl: -1166
+Runs: 1000 -- Avg. time in ms: 22.784839, Avg. CPU usage: 91.252%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 4.809629736552e-2
+ruca: -1166
+Runs: 1000 -- Avg. time in ms: 19.565164, Avg. CPU usage: 89.394%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.7175258505084e-2
+bc:   -1166
+Runs: 1000 -- Avg. time in ms: 21.831308, Avg. CPU usage: 90.506%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.061076151324e-2
+lc:   -1166
+Runs: 1000 -- Avg. time in ms: 44.073841, Avg. CPU usage: 98.791%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.2966865014077e-2
+
+expression is "17 / 14 - 10 + 19 - 4 "
+zsh:  6
+Runs: 1000 -- Avg. time in ms: 3.155047, Avg. CPU usage: 50.813%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.2376259842723e-1
+zcalc:6
+Runs: 1000 -- Avg. time in ms: 14.998073, Avg. CPU usage: 89.324%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.4644252621354e-2
+bash: 6
+Runs: 1000 -- Avg. time in ms: 0.29, Avg. CPU usage: 92.45427000000007%
+Average time as measured by date (excluding overhead): 7.56525731086731ms
+Total time: 85.40729999542236s -- Avg. loop time: 85.40729999542236ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 3.7297096846570
+CPU score as measured by `date`: 1.4297145015766e+2
+sh:   6
+Runs: 1000 -- Avg. time in ms: 7.35, Avg. CPU usage: 86.06%
+Total time: 73.50460004806519s -- Avg. loop time: 73.50460004806519ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 1.5809251890391e-1
+perl: 6.21428571428571
+Runs: 1000 -- Avg. time in ms: 22.349125, Avg. CPU usage: 91.137%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 4.9095845867118e-2
+ruca: 
+Runs: 1000 -- Avg. time in ms: 16.867929, Avg. CPU usage: 87.835%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.7494848995095e-2
+bc:   6.21428571428571428571
+Runs: 1000 -- Avg. time in ms: 21.175314999999998, Avg. CPU usage: 85.041%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.5531801429054e-2
+lc:   6.2142857142857
+Runs: 1000 -- Avg. time in ms: 42.248124000000004, Avg. CPU usage: 96.612%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.4499741278014e-2
+
+expression is "13 + 84 + 28 - 43 + 71 + 39 "
+zsh:  192
+Runs: 1000 -- Avg. time in ms: 3.171874, Avg. CPU usage: 50.364%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.2598490063614e-1
+zcalc:192
+Runs: 1000 -- Avg. time in ms: 14.675827, Avg. CPU usage: 89.238%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.6356776897437e-2
+bash: 192
+Runs: 1000 -- Avg. time in ms: 0.368, Avg. CPU usage: 93.4258600000001%
+Average time as measured by date (excluding overhead): 7.405459642410278ms
+Total time: 87.32679986953735s -- Avg. loop time: 87.32679986953735ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.90860721469180
+CPU score as measured by `date`: 1.4453761234167e+2
+sh:   192
+Runs: 1000 -- Avg. time in ms: 6.94, Avg. CPU usage: 85.958%
+Total time: 70.8306999206543s -- Avg. loop time: 70.8306999206543ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 1.6763095816582e-1
+perl: 192
+Runs: 1000 -- Avg. time in ms: 17.313058, Avg. CPU usage: 86.952%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.6427306089413e-2
+ruca: 192
+Runs: 1000 -- Avg. time in ms: 18.141946, Avg. CPU usage: 84.08%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.555765750806e-2
+bc:   192
+Runs: 1000 -- Avg. time in ms: 21.747443999999998, Avg. CPU usage: 86.504%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.3156403427404e-2
+lc:   192
+Runs: 1000 -- Avg. time in ms: 42.787496, Avg. CPU usage: 94.275%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.4790574277107e-2
+
+expression is "93 * 45 + 78 + 20 / 17 - 88 "
+zsh:  4176
+Runs: 1000 -- Avg. time in ms: 3.500698, Avg. CPU usage: 49.695%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.7482104333141e-1
+zcalc:4176
+Runs: 1000 -- Avg. time in ms: 16.680034, Avg. CPU usage: 85.589%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.0046286514808e-2
+bash: 4176
+Runs: 1000 -- Avg. time in ms: 0.371, Avg. CPU usage: 90.88136000000004%
+Average time as measured by date (excluding overhead): 5.987611532211304ms
+Total time: 98.76209998130798s -- Avg. loop time: 98.76209998130798ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.96586427597190
+CPU score as measured by `date`: 1.837687098547e+2
+sh:   4176
+Runs: 1000 -- Avg. time in ms: 8.47, Avg. CPU usage: 82.456%
+Total time: 81.5738000869751s -- Avg. loop time: 81.5738000869751ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 1.4318394589525e-1
+perl: 4176.17647058824
+Runs: 1000 -- Avg. time in ms: 22.994203000000002, Avg. CPU usage: 85.794%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.0690283754524e-2
+ruca: 4176.176470588235
+Runs: 1000 -- Avg. time in ms: 18.272628, Avg. CPU usage: 83.983%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.5163980186696e-2
+bc:   4176.17647058823529411764
+Runs: 1000 -- Avg. time in ms: 20.869364, Avg. CPU usage: 84.218%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.6896540724844e-2
+lc:   4176.1764705882
+Runs: 1000 -- Avg. time in ms: 36.383199999999995, Avg. CPU usage: 96.424%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.8504535131741e-2
+
+expression is "836 + 968 + 952 - 974 / 493 * 12 * 697 - 100 * 842 "
+zsh:  -89808
+Runs: 1000 -- Avg. time in ms: 3.401013, Avg. CPU usage: 48.543%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.0571049049662e-1
+zcalc:-89808
+Runs: 1000 -- Avg. time in ms: 13.735084, Avg. CPU usage: 89.453%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 8.139051004491e-2
+bash: -89808
+Runs: 1000 -- Avg. time in ms: 0.391, Avg. CPU usage: 91.84076999999999%
+Average time as measured by date (excluding overhead): 5.930898666381836ms
+Total time: 98.47500014305115s -- Avg. loop time: 98.47500014305115ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.7847597064280
+CPU score as measured by `date`: 1.8358786862862e+2
+sh:   -89808
+Runs: 1000 -- Avg. time in ms: 8.05, Avg. CPU usage: 83.3%
+Total time: 76.61960005760193s -- Avg. loop time: 76.61960005760193ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 1.4912797417103e-1
+perl: -97968.4137931034
+Runs: 1000 -- Avg. time in ms: 19.489355, Avg. CPU usage: 88.044%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.8277748981143e-2
+ruca: 
+Runs: 1000 -- Avg. time in ms: 14.155437, Avg. CPU usage: 85.421%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 8.2701248793076e-2
+bc:   -97968.41379310344827586156
+Runs: 1000 -- Avg. time in ms: 19.060168, Avg. CPU usage: 88.192%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.9490015786348e-2
+lc:   -97968.413793103
+Runs: 1000 -- Avg. time in ms: 39.143989000000005, Avg. CPU usage: 96.627%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.6438476352796e-2
+
+expression is "3 / 613 + 296 - 524 * 263 - 689 + 994 * 926 - 747 + 992 / 800 "
+zsh:  781493
+Runs: 1000 -- Avg. time in ms: 3.379058, Avg. CPU usage: 50.967%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.8065113945943e-1
+zcalc:781493
+Runs: 1000 -- Avg. time in ms: 15.465129000000001, Avg. CPU usage: 88.355%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.3183861634911e-2
+bash: 781493
+Runs: 1000 -- Avg. time in ms: 0.304, Avg. CPU usage: 90.68713000000011%
+Average time as measured by date (excluding overhead): 6.403268098831177ms
+Total time: 88.83959984779358s -- Avg. loop time: 88.83959984779358ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 3.62727730407890
+CPU score as measured by `date`: 1.7220773570941e+2
+sh:   781493
+Runs: 1000 -- Avg. time in ms: 4.92, Avg. CPU usage: 82.685%
+Total time: 63.308900117874146s -- Avg. loop time: 63.308900117874146ms
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.4581487878131e-1
+perl: 781493.244893964
+Runs: 1000 -- Avg. time in ms: 20.489042, Avg. CPU usage: 83.508%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 5.8445390508375e-2
+ruca: 
+Runs: 1000 -- Avg. time in ms: 16.506531, Avg. CPU usage: 83.575%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 7.2488281324394e-2
+bc:   781493.24489396411092985318
+Runs: 1000 -- Avg. time in ms: 19.183395, Avg. CPU usage: 84.398%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 6.1764990009645e-2
+lc:   781493.24489396
+Runs: 1000 -- Avg. time in ms: 40.478083, Avg. CPU usage: 96.229%
+CPU score ( 1 / ( avg. time * ( avg. cpu / 100 ) ) ): 2.567285043707e-2
+
+[Process exited 0]

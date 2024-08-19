@@ -1,0 +1,15 @@
+[package]
+name = "ruca"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+strip = "symbols"
+lto = true
+opt-level = 3
+codegen-units = 1
+
+[profile.dev]
+opt-level = 2
+
+[dependencies]
